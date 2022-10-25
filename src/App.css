@@ -36,6 +36,7 @@ body {
     align-items: center;
     height: 50px;
     padding-bottom: 30px;
+    padding-top: 20px;
 
 }
 
@@ -64,9 +65,10 @@ body {
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
     .card {
-        width: 80%;
-        height: 30%;
+        width: 70%;
+        height: 70%;
+        position: fixed;
     }
 }
