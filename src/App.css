@@ -1,0 +1,72 @@
+#root,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.App {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/image01.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 2%;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-bottom: 30px;
+
+}
+
+.button {
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+}
+
+.button span {
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+
+@media only screen and (max-width:600px) {
+    .card {
+        width: 80%;
+        height: 30%;
+    }
+}
